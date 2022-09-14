@@ -25,12 +25,14 @@ const Layout = ({ children }) => {
 
   return (
     <div className="page-wrapper">
-      <PageHeader siteTitle={title || `Title`} />
-      <main className="page-content">{children}</main>
-      <PageFooter
+       <div className="page-custom">
+            <PageHeader siteTitle={title || `Title`} />
+            <main className="page-content">{children}</main>
+       </div>
+      {/*<PageFooter
         author={author.name || `Author`}
         githubUrl={author.social?.github || `https://www.github.com`}
-      />
+      />*/}
       <ThemeSwitch />
     </div>
   );

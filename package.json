@@ -1,9 +1,9 @@
 {
-  "name": "zoomkoding.com",
+  "name": "syz",
   "private": false,
-  "description": "A neat blog theme for developers",
+  "description": "here is nothing",
   "version": "3.0.0",
-  "author": "zoomkoding <zoomkoding@gmail.com>",
+  "author": "syz",
   "dependencies": {
     "@mui/icons-material": "^5.1.0",
     "@mui/material": "^5.1.0",

@@ -29,7 +29,7 @@ function HomePage({ data }) {
       />
     </Layout>
   );
-}
+} 
 
 export default HomePage;
 

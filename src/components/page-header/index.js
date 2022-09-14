@@ -29,15 +29,16 @@ function PageHeader({ siteTitle }) {
           <div className="page-header">
             <div className="front-section">
               <Link className="link" to="/">
-                {siteTitle}
+                Here is Nothing
+                {/*{siteTitle}*/}
               </Link>
             </div>
             <div className="trailing-section">
               <Link className="link" to="/about">
-                about
+                home
               </Link>
               <Link className="link" to="/posts">
-                posts
+                post
               </Link>
               <PostSearch
                 posts={data.allMarkdownRemark.edges.map(({ node }) => new Post(node, true))}

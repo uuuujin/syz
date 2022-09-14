@@ -11,7 +11,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include content-max-width;
+    width :100%;
+    padding: 7px 7px 7px 7px;
+    //@include content-max-width;
 
     .link {
       font-weight: 700;
