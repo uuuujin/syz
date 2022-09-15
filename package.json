@@ -55,11 +55,9 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
+  "homepage": "https://syz.netlify.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog"
-  },
-  "bugs": {
-    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog/issues"
+    "url": "https://github.com/uuuujin/syz"
   }
 }
