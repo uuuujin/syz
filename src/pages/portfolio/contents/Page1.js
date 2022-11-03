@@ -20,20 +20,9 @@ export default function Page1() {
     }
 
 
-    //const [resize, setResize] = useState();
-
-    const w = window.innerWidth + 'px';
-    const h = window.innerHeight + 'px';
-
-    const pageSection = {
-        backgroundColor : 'pink',
-        width : w,
-        height : h
-    };
     return (
-            <section data-anchor="Page 1" className="pg-page" style={pageSection}>
-                여긴 page1
-                뭐라도 하자
+            <section data-anchor="Page 1" className="pg-page">
+                page1
                 <div>
                     브라우저 화면 사이즈
                     x : {window.innerWidth},
