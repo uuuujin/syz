@@ -2,7 +2,7 @@
   "name": "syz",
   "private": false,
   "description": "here is nothing",
-  "version": "3.0.0",
+  "version": "0.0.0",
   "author": "syz",
   "dependencies": {
     "@mui/icons-material": "^5.1.0",
