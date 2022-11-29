@@ -1,5 +1,5 @@
 ---
-emoji: 💻
+emoji: 🖥️
 title: Maximum call stack size exceeded 에러
 date: '2022-11-29 10:37:00'
 author: syz
