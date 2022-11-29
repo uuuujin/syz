@@ -4,7 +4,7 @@ title: iframe 활용시 postMessage() 로 값 넘기는 방법
 date: '2022-09-18 13:09:00'
 author: syz
 tags: javascript jquery iframe
-categories: javascript
+categories: js
 ---
 
 iframe 에서 같은 도메인끼리 값을 넘길때,
