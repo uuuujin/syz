@@ -4,7 +4,7 @@ title: e.preventDefault() 란
 date: '2022-09-19 15:12:55'
 author: syz
 tags: javascript jquery 
-categories: javascript
+categories: js
 ---
 
 ## e.preventDefault() 
