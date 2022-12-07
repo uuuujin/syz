@@ -3,8 +3,8 @@
 @use '../styles/reset'as *;
 @use '../styles/colors'as *;
 
+/*삼립 호빵체*/
 @font-face {
-    /*font-family: 'NanumBarunGothic', serif;*/
     font-family: 'SDSamliphopangche_Outline';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
     font-weight: normal;
@@ -22,6 +22,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/*레트로 글씨체*/
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
 
 * {
     box-sizing: border-box;

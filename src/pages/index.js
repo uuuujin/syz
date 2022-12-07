@@ -18,7 +18,7 @@ function HomePage({ data }) {
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title="일단채워넣자 - Home" />
       <Bio author={author} language={language} />
       <PostTabs
         posts={posts}
