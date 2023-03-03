@@ -62,7 +62,7 @@ let hereMyClickEvent = (() => {
 });
 ```
 
-이런식으로 id값이 someButton 이라는 버튼을 클릭했을때,
+이런식으로 id값이 someButton 이라는 버튼을intellij. 클릭했을때,
 
 thisValue가 
 
