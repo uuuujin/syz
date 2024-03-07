@@ -1,16 +1,18 @@
 import React from 'react';
+// import { createGlobalStyle } from "styled-components";
 
 import Layout from '../layout';
 import Seo from '../components/seo';
 
 function NotFoundPage() {
+  const imageStyle = {
+    height : '100vh',
+    width : '100%'
+  }
   return (
-    <Layout>
-      <Seo title="404: Not found" />
-      <h1>404: Not Found</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    </Layout>
+      <img style={imageStyle} src='/404.png'/>
   );
 }
+
 
 export default NotFoundPage;
