@@ -25,9 +25,10 @@
     transition: transform 0.2s;
 
     &:hover {
-      .title {
+
         text-decoration: underline;
-      }
+        color: #63B3F6;
+        border: 2px dotted #63B3F6;
     }
 
     @include md {
@@ -41,9 +42,9 @@
       line-height: 1.4;
     }
     .description {
-      font-size: 14px;
+      font-size: 12px;
       letter-spacing: 1px;
-      font-family: 'Galmuri14';
+      font-family: 'TTLaundryGothicB';
 
       margin-bottom: 10px;
       line-height: 20px;
@@ -69,6 +70,8 @@
 
         .category {
           margin-left: 4px;
+          font-size: 15px;
+          font-weight: 600;
 
           &:hover {
             text-decoration: underline;
