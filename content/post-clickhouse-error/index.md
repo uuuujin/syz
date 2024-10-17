@@ -1,17 +1,19 @@
 ---
 emoji: 🚙
-title: clickhouse error -> is not under aggregate function and not in GROUP BY. Have columns
+title: clickhouse에서 order by
 date: '2024-09-13 12:31:50'
 author: syz
 tags: clickhouse
 categories: clickhouse
 ---
 
+오늘은 일을하다가 생긴 오류에 대해 보면서 
+
 ## is not under aggregate function and not in GROUP BY. Have columns:
 
 이렇게 java 디버깅시 clickhouse DB 오류가 나왔다.
 
-# 이거는 이건 CLICKHOUSE ORDER BY 대로 GROUP BY를 안한거임 !!!!
+# 이거는 이건 CLICKHOUSE에서 GROUP BY를 안한거임 !!!!
 
 클릭하우스에서 테이블을 생성할때 order by 는
 
