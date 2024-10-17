@@ -11,13 +11,18 @@ categories: clickhouse
 
 ## is not under aggregate function and not in GROUP BY. Have columns:
 
+### 집계 함수 및 GROUP BY에 속하지 않습니다. 열이 있습니다:
+
 이렇게 java 디버깅시 clickhouse DB 오류가 나왔다.
 
-# 이거는 이건 CLICKHOUSE에서 GROUP BY를 안한거임 !!!!
+
+## 이거는 이건 CLICKHOUSE에서 GROUP BY를 제대로 안한거임 !!!! -> 그냥 쿼리 다시  살펴보면되는 문제
 
 클릭하우스에서 테이블을 생성할때 order by 는
 
 우리가 아는 관계형 db 에서 order by 가 아니다.
+
+
 
 클하는 컬럼형 디비로
 
@@ -26,6 +31,7 @@ categories: clickhouse
 데이터를 특정 순서대로 저장할 필요가 있어서
 
 create 할 때 order by 는 데이터를 어떤 순서로 저장할기를 정하는 것이다.
+
 
 ```
 create table abc 
@@ -44,7 +50,9 @@ userId 기준으로 먼저 정렬하고,
 
 userName이 같을 경우 userId를 기준으로 추가 정렬해서 저장함
 
-이렇게 되면 userId나 userName을 조회할 떄 성능이 최적화 된디ㅏ.
+이렇게 되면 userId나 userName을 조회할 떄 성능이 최적화 된다.
+
+
 
 ## ClickHouse - Order By의 의미 
 ---------------------------------------------------------------------------
