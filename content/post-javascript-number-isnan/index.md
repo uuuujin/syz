@@ -3,8 +3,8 @@ emoji: 🎮
 title: javascript isNan? 너 숫자 맞니?
 date: '2024-05-07 14:15:56'
 author: syz
-tags: javascript Number isNaN
-categories: javascript
+tags: javascript Number isNaN js
+categories: js
 ---
 
 ## javascript 숫자가 맞는지 확인하고 싶을떄

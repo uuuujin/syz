@@ -3,8 +3,8 @@ emoji: 🚗
 title: TS2345 Argument of type (prev string) => string | undefined is not assignable to parameter of type SetStateAction 어쩌구 타입스크립트 오류
 date: '2024-08-12 17:56:21'
 author: syz
-tags: typescript
-categories: typescript
+tags: typescript ts script
+categories: ts
 ---
 
 ## TS2345 : Argument of type (prev: string) => string | undefined is not assignable to parameter of type SetStateAction<string>

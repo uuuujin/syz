@@ -3,8 +3,8 @@ emoji: 🚀
 title: DOMContentLoaded
 date: '2024-09-11 17:24:22'
 author: syz
-tags: javascript
-categories: javascript
+tags: javascript js
+categories: js
 ---
 
 ## DOMContentLoaded
