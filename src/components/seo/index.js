@@ -56,7 +56,7 @@ function Seo({ description, title }) {
           content: `website`,
         },
         {
-          property: `google-adsense-account`,
+          name: `google-adsense-account`,
           content: `ca-pub-6832601969927007`,
         },
       ]}
