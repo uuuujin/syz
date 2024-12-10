@@ -51,10 +51,13 @@ function Seo({ description, title }) {
           property: 'og:image',
           content: site.siteMetadata.ogImage,
         },
-
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `google-adsense-account`,
+          content: `ca-pub-6832601969927007`,
         },
       ]}
     />
