@@ -60,7 +60,10 @@ function Seo({ description, title }) {
           content: `ca-pub-6832601969927007`,
         },
       ]}
-    />
+    >
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6832601969927007"
+     crossorigin="anonymous"></script>
+    </Helmet>
   );
 }
 
